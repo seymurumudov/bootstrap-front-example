@@ -1,0 +1,74 @@
+/* global styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+/* end global styles */
+
+/* HEADER STYLES START */
+
+#header .logo {
+    font-size: 30px;
+}
+
+#header ul {
+    display: flex;
+    /* gap: 10px; */
+}
+
+#header ul li {
+    margin: 0 10px;
+}
+
+#header ul li a {
+    display: flex;
+    gap: 7px;
+    color: rgb(146, 146, 146);
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+#header .nav-links {
+    display: flex;
+}
+
+/*  HEADER STYLES END */
+
+
+/* HERO SECTION START */
+#hero {
+    width: 100%;
+    background-image: url(https://bootstrapmade.com/demo/templates/Scaffold/assets/img/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right top;
+    margin-top: 70px;
+    padding: 60px 0;
+}
+#hero .hero-title {
+    font-size: 50px;
+}
+#hero .hero-content {
+    font-size: 25px;
+}
+#hero .hero-btn {
+    background-color: rgba(19, 79, 210, 0.929);
+    text-transform: uppercase;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    padding: 10px 20px;
+}
+#hero .hero-img {
+    text-align: right;
+}
+#hero .hero-img img{
+    width: 540px;
+}
+/* HERO SECTION END */
